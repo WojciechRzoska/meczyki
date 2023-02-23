@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Author extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title','text'];
+    protected $fillable = ['name'];
 
-    public function authors()
+    public function articles()
     {
-        return $this->belongsToMany(Author::class); 
+        return $this->belongsToMany(Article::class);
     }
 }
