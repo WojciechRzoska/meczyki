@@ -16,7 +16,5 @@ class AuthorSeeder extends Seeder
         Author::create(['name' => 'Sławomir Peszko']);
         Author::create(['name' => 'Robert Lewandowski']);
         Author::create(['name' => 'Tomasz Hajto']);
-        Author::create(['name' => 'Łukasz Piszczek']);
-        Author::create(['name' => 'Artur Boruc']);
     }
 }

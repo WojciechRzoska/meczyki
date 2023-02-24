@@ -23,7 +23,7 @@ class ArticleFactory extends Factory
         return [
             'title' => $this->faker->sentence(),
             'text' => $this->faker->paragraph(),
-            'creation_date' => $this->faker->dateTimeBetween('-1 month', 'now'),
+            'creation_date' => $this->faker->dateTimeBetween('-1 week', 'now'),
         ];
     }
 }

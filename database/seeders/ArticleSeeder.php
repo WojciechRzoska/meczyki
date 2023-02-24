@@ -16,7 +16,7 @@ class ArticleSeeder extends Seeder
     {
         $authors = Author::all();
 
-        $articlesCount = [3, 2, 1]; // Number of articles to create for each author
+        $articlesCount = [2, 1]; // Number of articles to create for each author
 
         foreach ($authors as $key => $author) {
             $count = $articlesCount[$key] ?? 0;
