@@ -23,6 +23,6 @@
             @endforeach
         </select>
     </div>
-    <button type="submit" >Save</button>
+    <button type="submit" class="btn btn-primary col-1">Save</button>
 </form>
 @endsection
